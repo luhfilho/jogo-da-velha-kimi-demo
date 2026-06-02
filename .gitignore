@@ -1,0 +1,6 @@
+# Artefatos temporários de automação de browser
+.playwright-mcp/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
