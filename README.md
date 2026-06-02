@@ -1,5 +1,11 @@
 # Jogo da Velha 🎮 (retro/neon)
 
+[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen?logo=github)](https://luhfilho.github.io/jogo-da-velha-kimi-demo/)
+[![Built with kimi-plugin](https://img.shields.io/badge/built%20with-kimi--plugin%20v0.2.0-blueviolet)](https://github.com/luhfilho/kimi-plugin-cross-platform)
+[![Vanilla JS](https://img.shields.io/badge/vanilla-JavaScript-f7df1e?logo=javascript&logoColor=black)](#)
+[![No Dependencies](https://img.shields.io/badge/dependencies-0-success)](#)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+
 Jogo da velha (tic-tac-toe) em **JavaScript puro** — sem frameworks, sem build, sem
 dependências (apenas uma fonte do Google Fonts). Modo **2 jogadores (PvP local)** e
 **contra o computador (IA)**, com estilo retro/neon, placar, destaque da linha
