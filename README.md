@@ -85,6 +85,19 @@ somado a `clearTimeout`. O teste funcional confirma a correção.
 |--------------|---------------------------|
 | ![Menu](evidencias/menu.png) | ![Vitória](evidencias/vitoria.png) |
 
+## 📊 Consumo de tokens
+
+Quanto cada agente consumiu nesta sessão — detalhes e metodologia em
+[`CONSUMO-DE-TOKENS.md`](CONSUMO-DE-TOKENS.md) (Claude e Codex exatos; Kimi estimado, +20%):
+
+| Agente | Papel | Tokens |
+|--------|-------|-------:|
+| 🟦 Claude (Opus) | Planeja, orquestra, testa, publica | 27.030.848 processados¹ |
+| 🟪 Codex | Revisão adversarial | 246.604 |
+| 🟧 Kimi | Implementa + corrige | ~205.000 (estimado) |
+
+¹ ~91% é *cache read* (reuso barato); o núcleo é input fresco (~107k) + output (~233k).
+
 ## 📄 Licença
 
 MIT.
